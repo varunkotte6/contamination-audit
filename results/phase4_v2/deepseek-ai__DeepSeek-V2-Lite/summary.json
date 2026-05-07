@@ -1,0 +1,6 @@
+{
+  "_status": "failed",
+  "_reason": "ImportError: is_torch_fx_available not available in transformers 5.5.4; DeepSeek-V2 custom modeling code requires older API",
+  "_timestamp": "2026-04-22T17:32:00Z",
+  "_skipped_from_audit": true
+}

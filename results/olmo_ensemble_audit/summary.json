@@ -1,0 +1,165 @@
+{
+  "olmo_v2_full": {
+    "calibration": {
+      "f1_val": 0.9994997498744373,
+      "auc_val": 0.999998,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "m": 34,
+      "n_raw": 6,
+      "n_bonf": 6,
+      "families": [
+        "Llama",
+        "OLMo",
+        "Phi-3.5",
+        "Qwen-14B",
+        "Qwen-32B",
+        "Qwen-other"
+      ],
+      "bonf_cells": [
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.3203883495145631,
+          "p": 4.1515694365934056e-23
+        },
+        {
+          "m": "microsoft__Phi-3.5-mini-instruct",
+          "b": "arc_challenge",
+          "gap": -0.1748654338326736,
+          "p": 6.682775404951483e-09
+        },
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.053967129275400864,
+          "p": 7.1437826852664785e-09
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.051062384747112756,
+          "p": 8.274146084767611e-08
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "gsm8k_test",
+          "gap": -0.21768911107882427,
+          "p": 1.2337728828741384e-07
+        },
+        {
+          "m": "Qwen__Qwen2.5-7B",
+          "b": "arc_challenge",
+          "gap": -0.09193595556790797,
+          "p": 6.6561978735306925e-06
+        }
+      ]
+    }
+  },
+  "olmo_v2_no_refdelta": {
+    "calibration": {
+      "f1_val": 0.9994997498744373,
+      "auc_val": 0.999998,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "m": 40,
+      "n_raw": 7,
+      "n_bonf": 6,
+      "families": [
+        "Llama",
+        "OLMo",
+        "Phi-3.5",
+        "Qwen-14B",
+        "Qwen-32B",
+        "Qwen-other"
+      ],
+      "bonf_cells": [
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.30409356725146197,
+          "p": 3.379543558193977e-18
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "arc_challenge",
+          "gap": -0.21697745913170396,
+          "p": 4.240282463034155e-11
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.051405499603130074,
+          "p": 9.458618404880734e-09
+        },
+        {
+          "m": "microsoft__Phi-3.5-mini-instruct",
+          "b": "arc_challenge",
+          "gap": -0.1555158469375714,
+          "p": 1.759379762996994e-06
+        },
+        {
+          "m": "Qwen__Qwen2.5-Coder-7B",
+          "b": "arc_challenge",
+          "gap": -0.09266614804261547,
+          "p": 7.07232271001814e-06
+        },
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.055114036942343396,
+          "p": 2.0301526150688564e-05
+        }
+      ]
+    }
+  },
+  "olmo_v2_pure_mem": {
+    "calibration": {
+      "f1_val": 0.9994997498744373,
+      "auc_val": 0.999997,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "m": 48,
+      "n_raw": 8,
+      "n_bonf": 4,
+      "families": [
+        "Llama",
+        "Mistral",
+        "Qwen-3",
+        "Qwen-32B"
+      ],
+      "bonf_cells": [
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.30177514792899407,
+          "p": 7.898149678386934e-18
+        },
+        {
+          "m": "mistralai__Mistral-7B-v0.3",
+          "b": "arc_challenge",
+          "gap": -0.23906427125146246,
+          "p": 2.732797282831827e-12
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.05726342980104059,
+          "p": 1.817780122265213e-07
+        },
+        {
+          "m": "Qwen__Qwen3-8B",
+          "b": "arc_challenge",
+          "gap": -0.09090909090909094,
+          "p": 8.100069912332245e-07
+        }
+      ]
+    }
+  }
+}

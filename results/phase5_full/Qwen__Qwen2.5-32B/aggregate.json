@@ -1,0 +1,37 @@
+{
+  "gsm8k_test": {
+    "n_items": 1000,
+    "accuracy": 0.019,
+    "duration_sec": 68.51569032669067
+  },
+  "mmlu_test": {
+    "n_items": 969,
+    "accuracy": 0.8286893704850361,
+    "duration_sec": 9.21503210067749
+  },
+  "hellaswag_val": {
+    "n_items": 1000,
+    "accuracy": 0.955,
+    "duration_sec": 18.71747875213623
+  },
+  "arc_challenge": {
+    "n_items": 1000,
+    "accuracy": 0.953,
+    "duration_sec": 6.487534761428833
+  },
+  "humaneval": {
+    "n_items": 164,
+    "accuracy": 0.12804878048780488,
+    "duration_sec": 15.345060110092163
+  },
+  "mbpp": {
+    "n_items": 500,
+    "accuracy": 0.004,
+    "duration_sec": 14.929318904876709
+  },
+  "truthfulqa_mc": {
+    "n_items": 817,
+    "accuracy": 0.791921664626683,
+    "duration_sec": 6.373309850692749
+  }
+}

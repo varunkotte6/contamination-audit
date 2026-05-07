@@ -1,0 +1,12 @@
+{
+  "variant": "B",
+  "pos_bench": "mmlu_test",
+  "k_percent": 20,
+  "n_items": 500,
+  "cross_bench_calibration": {
+    "auc": 0.990044,
+    "f1": 0.9471544715442156,
+    "n_pos": 500,
+    "n_neg": 500
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "arc_challenge": {
+    "n_cells": 2,
+    "v2_unstratified_mean_gap": 0.10262636045010148,
+    "v4_olmo_stratified_mean_gap": 0.037681159420289885,
+    "n_cells_with_strat": 2,
+    "improvement_pp": 0.06494520102981159
+  },
+  "gsm8k_test": {
+    "n_cells": 9,
+    "v2_unstratified_mean_gap": 0.01992798645778176,
+    "v4_olmo_stratified_mean_gap": 0.026248751248751243,
+    "n_cells_with_strat": 4,
+    "improvement_pp": 0.04749362938690369
+  },
+  "math500": {
+    "n_cells": 6,
+    "v2_unstratified_mean_gap": 0.2473716956701951,
+    "v4_olmo_stratified_mean_gap": 0.3990550226554802,
+    "n_cells_with_strat": 4,
+    "improvement_pp": -0.06989223921429216
+  },
+  "livecodebench": {
+    "n_cells": 7,
+    "v2_unstratified_mean_gap": 0.08656846190823843,
+    "v4_olmo_stratified_mean_gap": 0.07825950983154924,
+    "n_cells_with_strat": 2,
+    "improvement_pp": 0.11275906755066453
+  },
+  "humaneval": {
+    "n_cells": 7,
+    "v2_unstratified_mean_gap": -0.04671484834751682,
+    "v4_olmo_stratified_mean_gap": -0.25,
+    "n_cells_with_strat": 1,
+    "improvement_pp": 0.1353658536585366
+  },
+  "mbpp": {
+    "n_cells": 11,
+    "v2_unstratified_mean_gap": -0.006580911563095384,
+    "v4_olmo_stratified_mean_gap": -0.02341407397271362,
+    "n_cells_with_strat": 2,
+    "improvement_pp": -0.012780939624310988
+  }
+}

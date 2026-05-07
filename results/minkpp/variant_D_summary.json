@@ -1,0 +1,12 @@
+{
+  "variant": "D",
+  "pos_bench": "arc_challenge",
+  "k_percent": 20,
+  "n_items": 500,
+  "cross_bench_calibration": {
+    "auc": 0.1789,
+    "f1": 0.6666666666662222,
+    "n_pos": 500,
+    "n_neg": 500
+  }
+}

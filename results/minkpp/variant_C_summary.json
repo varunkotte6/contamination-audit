@@ -1,0 +1,12 @@
+{
+  "variant": "C",
+  "pos_bench": "hellaswag_val",
+  "k_percent": 20,
+  "n_items": 500,
+  "cross_bench_calibration": {
+    "auc": 0.651972,
+    "f1": 0.7406832298131896,
+    "n_pos": 500,
+    "n_neg": 500
+  }
+}

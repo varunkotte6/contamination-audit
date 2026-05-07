@@ -1,0 +1,86 @@
+{
+  "gsm8k_test": {
+    "full": {
+      "n": 1000,
+      "acc": 0.668,
+      "duration_sec": 11.449251651763916
+    },
+    "clean": {
+      "n": 370,
+      "acc": 0.7513513513513513,
+      "duration_sec": 4.148865222930908
+    },
+    "contaminated": {
+      "n": 74,
+      "acc": 0.40540540540540543,
+      "duration_sec": 2.779149293899536
+    }
+  },
+  "mmlu_test": {
+    "full": {
+      "n": 969,
+      "acc": 0.6749226006191951,
+      "duration_sec": 2.72959041595459
+    },
+    "clean": {
+      "n": 929,
+      "acc": 0.6759956942949408,
+      "duration_sec": 0.4578440189361572
+    },
+    "contaminated": {
+      "n": 1,
+      "acc": 1.0,
+      "duration_sec": 0.0294497013092041
+    }
+  },
+  "hellaswag_val": {
+    "full": {
+      "n": 1000,
+      "acc": 0.641,
+      "duration_sec": 5.514443874359131
+    },
+    "clean": {
+      "n": 1000,
+      "acc": 0.641,
+      "duration_sec": 5.522675514221191
+    },
+    "contaminated": {
+      "n": 0,
+      "acc": null
+    }
+  },
+  "arc_challenge": {
+    "full": {
+      "n": 1000,
+      "acc": 0.9,
+      "duration_sec": 1.9494884014129639
+    },
+    "clean": {
+      "n": 896,
+      "acc": 0.9129464285714286,
+      "duration_sec": 0.38647890090942383
+    },
+    "contaminated": {
+      "n": 5,
+      "acc": 0.8,
+      "duration_sec": 0.038167476654052734
+    }
+  },
+  "humaneval": {
+    "full": {
+      "n": 164,
+      "acc": 0.07317073170731707,
+      "duration_sec": 7.44732928276062
+    },
+    "clean": {
+      "n": 42,
+      "acc": 0.09523809523809523,
+      "duration_sec": 4.597282886505127
+    },
+    "contaminated": {
+      "n": 19,
+      "acc": 0.05263157894736842,
+      "duration_sec": 4.652810573577881
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ref_name": "llama318b",
+  "ref_path": "/mnt/localssd/models/meta-llama__Llama-3.1-8B",
+  "benchmarks": {
+    "mmlu_test": {
+      "n": 500,
+      "mean": 2.097536563873291,
+      "std": 0.48668551445007324,
+      "n_nan": 0
+    },
+    "arc_challenge": {
+      "n": 500,
+      "mean": 1.9533565044403076,
+      "std": 0.3941847085952759,
+      "n_nan": 0
+    },
+    "gsm8k_test": {
+      "n": 500,
+      "mean": 1.6445258855819702,
+      "std": 0.3032706081867218,
+      "n_nan": 0
+    }
+  }
+}

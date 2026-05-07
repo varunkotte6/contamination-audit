@@ -1,0 +1,251 @@
+{
+  "n_models": 23,
+  "n_aime_items": 90,
+  "models": [
+    "01-ai__Yi-1.5-9B",
+    "EleutherAI__pythia-1b",
+    "EleutherAI__pythia-2.8b",
+    "EleutherAI__pythia-410m",
+    "EleutherAI__pythia-6.9b",
+    "EleutherAI__pythia-70m",
+    "Qwen__Qwen2.5-1.5B",
+    "Qwen__Qwen2.5-14B",
+    "Qwen__Qwen2.5-32B",
+    "Qwen__Qwen2.5-7B",
+    "Qwen__Qwen2.5-Coder-7B",
+    "Qwen__Qwen2.5-Math-7B",
+    "Qwen__Qwen3-8B",
+    "allenai__OLMo-2-1124-7B",
+    "deepseek-ai__DeepSeek-R1-Distill-Qwen-7B",
+    "google__gemma-2-27b",
+    "google__gemma-2-9b",
+    "ibm-granite__granite-3.1-8b-base",
+    "meta-llama__Llama-3.1-70B",
+    "meta-llama__Llama-3.1-8B",
+    "microsoft__Phi-3.5-mini-instruct",
+    "microsoft__phi-4",
+    "mistralai__Mistral-7B-v0.3"
+  ],
+  "per_model_flag_rates": [
+    {
+      "model": "01-ai__Yi-1.5-9B",
+      "n_aime": 90,
+      "aime_flag05": 0.07777777777777778,
+      "aime_flag01": 0.5444444444444444,
+      "mmlu_flag05": 0.009287925696594427
+    },
+    {
+      "model": "EleutherAI__pythia-1b",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.011111111111111112,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "EleutherAI__pythia-2.8b",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.06666666666666667,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "EleutherAI__pythia-410m",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.0,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "EleutherAI__pythia-6.9b",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.1,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "EleutherAI__pythia-70m",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.0,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B",
+      "n_aime": 90,
+      "aime_flag05": 0.4,
+      "aime_flag01": 0.9,
+      "mmlu_flag05": 0.0010319917440660474
+    },
+    {
+      "model": "Qwen__Qwen2.5-14B",
+      "n_aime": 90,
+      "aime_flag05": 0.7222222222222222,
+      "aime_flag01": 0.9555555555555556,
+      "mmlu_flag05": 0.009287925696594427
+    },
+    {
+      "model": "Qwen__Qwen2.5-32B",
+      "n_aime": 90,
+      "aime_flag05": 0.8333333333333334,
+      "aime_flag01": 0.9888888888888889,
+      "mmlu_flag05": 0.016511867905056758
+    },
+    {
+      "model": "Qwen__Qwen2.5-7B",
+      "n_aime": 90,
+      "aime_flag05": 0.6444444444444445,
+      "aime_flag01": 0.9444444444444444,
+      "mmlu_flag05": 0.0041279669762641896
+    },
+    {
+      "model": "Qwen__Qwen2.5-Coder-7B",
+      "n_aime": 90,
+      "aime_flag05": 0.6333333333333333,
+      "aime_flag01": 0.9555555555555556,
+      "mmlu_flag05": 0.005159958720330237
+    },
+    {
+      "model": "Qwen__Qwen2.5-Math-7B",
+      "n_aime": 90,
+      "aime_flag05": 0.6777777777777778,
+      "aime_flag01": 0.9222222222222223,
+      "mmlu_flag05": 0.0030959752321981426
+    },
+    {
+      "model": "Qwen__Qwen3-8B",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.12222222222222222,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "allenai__OLMo-2-1124-7B",
+      "n_aime": 90,
+      "aime_flag05": 0.06666666666666667,
+      "aime_flag01": 0.5222222222222223,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "deepseek-ai__DeepSeek-R1-Distill-Qwen-7B",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.2777777777777778,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "google__gemma-2-27b",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.17777777777777778,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "google__gemma-2-9b",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.022222222222222223,
+      "mmlu_flag05": 0.0
+    },
+    {
+      "model": "ibm-granite__granite-3.1-8b-base",
+      "n_aime": 90,
+      "aime_flag05": 0.15555555555555556,
+      "aime_flag01": 0.7333333333333333,
+      "mmlu_flag05": 0.02063983488132095
+    },
+    {
+      "model": "meta-llama__Llama-3.1-70B",
+      "n_aime": 90,
+      "aime_flag05": 0.044444444444444446,
+      "aime_flag01": 0.36666666666666664,
+      "mmlu_flag05": 0.023735810113519093
+    },
+    {
+      "model": "meta-llama__Llama-3.1-8B",
+      "n_aime": 90,
+      "aime_flag05": 0.022222222222222223,
+      "aime_flag01": 0.2,
+      "mmlu_flag05": 0.006191950464396285
+    },
+    {
+      "model": "microsoft__Phi-3.5-mini-instruct",
+      "n_aime": 90,
+      "aime_flag05": 0.0,
+      "aime_flag01": 0.07777777777777778,
+      "mmlu_flag05": 0.0030959752321981426
+    },
+    {
+      "model": "microsoft__phi-4",
+      "n_aime": 90,
+      "aime_flag05": 0.14444444444444443,
+      "aime_flag01": 0.4666666666666667,
+      "mmlu_flag05": 0.006191950464396285
+    },
+    {
+      "model": "mistralai__Mistral-7B-v0.3",
+      "n_aime": 90,
+      "aime_flag05": 0.03333333333333333,
+      "aime_flag01": 0.7222222222222222,
+      "mmlu_flag05": 0.005159958720330237
+    }
+  ],
+  "cross_model_spearman": {
+    "n_pairs": 253,
+    "mean": 0.44727794595894255,
+    "median": 0.3999753055932831,
+    "frac_positive": 0.9802371541501976,
+    "frac_strong": 0.7114624505928854
+  },
+  "top_consistently_flagged_items": [
+    {
+      "item_id": 3,
+      "mean_p": 0.48963914140530623,
+      "n_flagged": 12
+    },
+    {
+      "item_id": 56,
+      "mean_p": 0.4355598870968448,
+      "n_flagged": 11
+    },
+    {
+      "item_id": 2,
+      "mean_p": 0.4034596118008959,
+      "n_flagged": 11
+    },
+    {
+      "item_id": 4,
+      "mean_p": 0.4001409944105786,
+      "n_flagged": 9
+    },
+    {
+      "item_id": 46,
+      "mean_p": 0.38999699619200884,
+      "n_flagged": 11
+    },
+    {
+      "item_id": 48,
+      "mean_p": 0.3851173931604496,
+      "n_flagged": 8
+    },
+    {
+      "item_id": 12,
+      "mean_p": 0.35961334508208337,
+      "n_flagged": 6
+    },
+    {
+      "item_id": 55,
+      "mean_p": 0.3591417729439854,
+      "n_flagged": 7
+    },
+    {
+      "item_id": 26,
+      "mean_p": 0.34734150404469605,
+      "n_flagged": 7
+    },
+    {
+      "item_id": 84,
+      "mean_p": 0.3457677311810624,
+      "n_flagged": 7
+    }
+  ]
+}

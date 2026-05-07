@@ -1,0 +1,24 @@
+{
+  "ref_name": "pythia69b",
+  "ref_path": "/mnt/localssd/models/EleutherAI__pythia-6.9b",
+  "benchmarks": {
+    "mmlu_test": {
+      "n": 500,
+      "mean": 2.4402129650115967,
+      "std": 0.49218496680259705,
+      "n_nan": 0
+    },
+    "arc_challenge": {
+      "n": 500,
+      "mean": 2.3062047958374023,
+      "std": 0.42346450686454773,
+      "n_nan": 0
+    },
+    "gsm8k_test": {
+      "n": 500,
+      "mean": 2.111481189727783,
+      "std": 0.360873281955719,
+      "n_nan": 0
+    }
+  }
+}

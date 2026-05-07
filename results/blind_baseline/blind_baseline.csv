@@ -1,0 +1,5 @@
+variant,pos_bench,blind_char_len_auc,blind_char_len_f1,blind_word_len_auc,minkpp_auc,minkpp_f1
+A,gsm8k_test,0.692,0.7547,0.735,1.0,1.0
+B,mmlu_test,0.6328,0.6808,0.3952,0.99,0.9472
+C,hellaswag_val,0.8312,0.7582,0.8674,0.652,0.7407
+D,arc_challenge,0.7464,0.75,0.2897,0.1789,0.6667

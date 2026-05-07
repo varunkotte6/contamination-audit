@@ -1,0 +1,30 @@
+{
+  "variant": "E",
+  "pos_bench": null,
+  "k_percent": 20,
+  "n_items": 500,
+  "scores_gsm8k_test": {
+    "mean": 2.5545473098754883,
+    "std": 0.46031373739242554,
+    "n": 500,
+    "duration_sec": 2.8339481353759766
+  },
+  "scores_mmlu_test": {
+    "mean": 2.4977543354034424,
+    "std": 0.5701625943183899,
+    "n": 500,
+    "duration_sec": 2.4770607948303223
+  },
+  "scores_hellaswag_val": {
+    "mean": 2.4031410217285156,
+    "std": 0.3690526485443115,
+    "n": 500,
+    "duration_sec": 2.228092908859253
+  },
+  "scores_arc_challenge": {
+    "mean": 2.6639866828918457,
+    "std": 0.5593060851097107,
+    "n": 500,
+    "duration_sec": 2.094998598098755
+  }
+}

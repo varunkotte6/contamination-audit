@@ -1,0 +1,147 @@
+{
+  "v2_full": {
+    "calibration": {
+      "f1_val": 0.9999999999995,
+      "auc_val": 1.0,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "name": "v2_full",
+      "m": 29,
+      "n_raw": 6,
+      "n_bonf": 5,
+      "families_bonf": [
+        "llama",
+        "olmo",
+        "qwen-14b",
+        "qwen-32b",
+        "qwen-other"
+      ],
+      "bonf_cells": [
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.058989118015774465,
+          "p": 0.00023179427627106563
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.06141479282316112,
+          "p": 4.0009425295199753e-07
+        },
+        {
+          "m": "Qwen__Qwen2.5-7B",
+          "b": "arc_challenge",
+          "gap": -0.11386138613861385,
+          "p": 1.8673184033244255e-07
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "gsm8k_test",
+          "gap": -0.16773139291597736,
+          "p": 0.0006865545556503113
+        },
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.33333333333333337,
+          "p": 7.859670493365733e-25
+        }
+      ]
+    }
+  },
+  "v2_no_refdelta": {
+    "calibration": {
+      "f1_val": 0.9999999999995,
+      "auc_val": 1.0,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "name": "v2_no_refdelta",
+      "m": 33,
+      "n_raw": 6,
+      "n_bonf": 5,
+      "families_bonf": [
+        "llama",
+        "microsoft__Phi-3.5-mini-instruct",
+        "olmo",
+        "qwen-14b",
+        "qwen-32b"
+      ],
+      "bonf_cells": [
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.056515073339347036,
+          "p": 1.0602459137815288e-08
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.0526764157629238,
+          "p": 7.945078623921229e-08
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "gsm8k_test",
+          "gap": -0.18160091043591486,
+          "p": 0.00018151255475666573
+        },
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.31499999999999995,
+          "p": 5.548822141219202e-22
+        },
+        {
+          "m": "microsoft__Phi-3.5-mini-instruct",
+          "b": "arc_challenge",
+          "gap": -0.1709281899051336,
+          "p": 2.497970647211529e-08
+        }
+      ]
+    }
+  },
+  "v2_pure_mem": {
+    "calibration": {
+      "f1_val": 0.9999999999995,
+      "auc_val": 1.0,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "name": "v2_pure_mem",
+      "m": 49,
+      "n_raw": 10,
+      "n_bonf": 3,
+      "families_bonf": [
+        "llama",
+        "qwen-32b",
+        "qwen-other"
+      ],
+      "bonf_cells": [
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.06004123363073554,
+          "p": 1.283258636778891e-05
+        },
+        {
+          "m": "Qwen__Qwen3-8B",
+          "b": "arc_challenge",
+          "gap": -0.08695652173913049,
+          "p": 1.505509122140819e-06
+        },
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.3125,
+          "p": 9.370987033908324e-18
+        }
+      ]
+    }
+  }
+}

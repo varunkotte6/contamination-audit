@@ -1,0 +1,41 @@
+# Pinned environment for reproduction — matches the audit environment
+# used for the submitted results (April 22-23, 2026).
+
+# Core ML
+torch==2.10.0+cu128
+transformers==5.5.4
+datasets==4.2.0
+accelerate==1.10.1
+tokenizers==0.22.1
+sentencepiece==0.2.1
+
+# Training + optimization
+peft==0.17.1
+trl==0.25.2
+bitsandbytes==0.49.0
+
+# Inference / eval
+vllm==0.11.0
+lm-eval==0.4.10
+
+# Numerics + utils
+numpy==2.3.4
+scipy==1.16.3
+scikit-learn==1.7.2
+statsmodels==0.14.6
+pandas==2.3.3
+xxhash==3.5.0
+jsonlines==4.0.0
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+Pillow==12.0.0
+
+# Hugging Face infra
+huggingface_hub==0.35.4
+hf_transfer==0.1.10
+
+# Experiment tracking (optional but present in our runs)
+wandb==0.22.4
+tensorboard==2.20.1

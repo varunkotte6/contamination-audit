@@ -1,0 +1,5 @@
+{
+  "accuracy": 0.58,
+  "n": 500,
+  "benchmark": "math500"
+}

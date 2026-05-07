@@ -1,0 +1,328 @@
+{
+  "per_method": {
+    "ngram13_pile": {
+      "threshold": -0.0,
+      "sign": -1.0,
+      "dev": {
+        "f1": 0.6674082313681868,
+        "precision": 0.5008347245409015,
+        "recall": 1.0,
+        "auc": 0.5016666666666666,
+        "n": 3000
+      },
+      "val": {
+        "f1": 0.6604089842440496,
+        "precision": 0.49672213817448313,
+        "recall": 0.985,
+        "auc": 0.4934975,
+        "n": 2000
+      }
+    },
+    "ngram13_fineweb": {
+      "threshold": -0.0,
+      "sign": -1.0,
+      "dev": {
+        "f1": 0.6672597864768683,
+        "precision": 0.5006675567423231,
+        "recall": 1.0,
+        "auc": 0.5013333333333334,
+        "n": 3000
+      },
+      "val": {
+        "f1": 0.6622073578595318,
+        "precision": 0.49748743718592964,
+        "recall": 0.99,
+        "auc": 0.495,
+        "n": 2000
+      }
+    },
+    "ngram13_self": {
+      "threshold": 1.0,
+      "sign": 1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 0.9984977466199298,
+        "precision": 1.0,
+        "recall": 0.997,
+        "auc": 0.9984925,
+        "n": 2000
+      }
+    },
+    "mink_5": {
+      "threshold": -8.685982942581177,
+      "sign": -1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    },
+    "mink_10": {
+      "threshold": -6.0172834396362305,
+      "sign": -1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    },
+    "mink_20": {
+      "threshold": -4.026683330535889,
+      "sign": -1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    },
+    "mink_30": {
+      "threshold": -2.7019463777542114,
+      "sign": -1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    },
+    "mink_50": {
+      "threshold": -1.601042091846466,
+      "sign": -1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    },
+    "loss_ft": {
+      "threshold": -0.7930809855461121,
+      "sign": -1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    },
+    "loss_base": {
+      "threshold": 1.6107047986984253,
+      "sign": 1.0,
+      "dev": {
+        "f1": 0.6757369614512472,
+        "precision": 0.5120274914089347,
+        "recall": 0.9933333333333333,
+        "auc": 0.5716991111111112,
+        "n": 3000
+      },
+      "val": {
+        "f1": 0.6327880264531848,
+        "precision": 0.48531767218366256,
+        "recall": 0.909,
+        "auc": 0.42809699999999995,
+        "n": 2000
+      }
+    },
+    "refmodel_delta": {
+      "threshold": 1.0863673739433826,
+      "sign": 1.0,
+      "dev": {
+        "f1": 0.998003992015968,
+        "precision": 0.9960159362549801,
+        "recall": 1.0,
+        "auc": 0.9999711111111111,
+        "n": 3000
+      },
+      "val": {
+        "f1": 0.9924509310518369,
+        "precision": 0.9989868287740629,
+        "recall": 0.986,
+        "auc": 0.999932,
+        "n": 2000
+      }
+    },
+    "embsim_self": {
+      "threshold": 0.991702675819397,
+      "sign": 1.0,
+      "dev": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 3000
+      },
+      "val": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "auc": 1.0,
+        "n": 2000
+      }
+    }
+  },
+  "kappa": {
+    "ngram13_pile__vs__ngram13_fineweb": 0.6661721068249258,
+    "ngram13_pile__vs__ngram13_self": 0.0033333333333332993,
+    "ngram13_pile__vs__mink_5": 0.0033333333333332993,
+    "ngram13_pile__vs__mink_10": 0.0033333333333332993,
+    "ngram13_pile__vs__mink_20": 0.0033333333333332993,
+    "ngram13_pile__vs__mink_30": 0.0033333333333332993,
+    "ngram13_pile__vs__mink_50": 0.0033333333333332993,
+    "ngram13_pile__vs__loss_ft": 0.0033333333333332993,
+    "ngram13_pile__vs__loss_base": 0.08130939809926074,
+    "ngram13_pile__vs__refmodel_delta": 0.0033600621142956255,
+    "ngram13_pile__vs__embsim_self": 0.0033333333333332993,
+    "ngram13_fineweb__vs__ngram13_self": 0.002666666666666706,
+    "ngram13_fineweb__vs__mink_5": 0.002666666666666706,
+    "ngram13_fineweb__vs__mink_10": 0.002666666666666706,
+    "ngram13_fineweb__vs__mink_20": 0.002666666666666706,
+    "ngram13_fineweb__vs__mink_30": 0.002666666666666706,
+    "ngram13_fineweb__vs__mink_50": 0.002666666666666706,
+    "ngram13_fineweb__vs__loss_ft": 0.002666666666666706,
+    "ngram13_fineweb__vs__loss_base": 0.04010238907849817,
+    "ngram13_fineweb__vs__refmodel_delta": 0.0026880568882796663,
+    "ngram13_fineweb__vs__embsim_self": 0.002666666666666706,
+    "ngram13_self__vs__mink_5": 1.0,
+    "ngram13_self__vs__mink_10": 1.0,
+    "ngram13_self__vs__mink_20": 1.0,
+    "ngram13_self__vs__mink_30": 1.0,
+    "ngram13_self__vs__mink_50": 1.0,
+    "ngram13_self__vs__loss_ft": 1.0,
+    "ngram13_self__vs__loss_base": 0.046666666666666634,
+    "ngram13_self__vs__refmodel_delta": 0.996,
+    "ngram13_self__vs__embsim_self": 1.0,
+    "mink_5__vs__mink_10": 1.0,
+    "mink_5__vs__mink_20": 1.0,
+    "mink_5__vs__mink_30": 1.0,
+    "mink_5__vs__mink_50": 1.0,
+    "mink_5__vs__loss_ft": 1.0,
+    "mink_5__vs__loss_base": 0.046666666666666634,
+    "mink_5__vs__refmodel_delta": 0.996,
+    "mink_5__vs__embsim_self": 1.0,
+    "mink_10__vs__mink_20": 1.0,
+    "mink_10__vs__mink_30": 1.0,
+    "mink_10__vs__mink_50": 1.0,
+    "mink_10__vs__loss_ft": 1.0,
+    "mink_10__vs__loss_base": 0.046666666666666634,
+    "mink_10__vs__refmodel_delta": 0.996,
+    "mink_10__vs__embsim_self": 1.0,
+    "mink_20__vs__mink_30": 1.0,
+    "mink_20__vs__mink_50": 1.0,
+    "mink_20__vs__loss_ft": 1.0,
+    "mink_20__vs__loss_base": 0.046666666666666634,
+    "mink_20__vs__refmodel_delta": 0.996,
+    "mink_20__vs__embsim_self": 1.0,
+    "mink_30__vs__mink_50": 1.0,
+    "mink_30__vs__loss_ft": 1.0,
+    "mink_30__vs__loss_base": 0.046666666666666634,
+    "mink_30__vs__refmodel_delta": 0.996,
+    "mink_30__vs__embsim_self": 1.0,
+    "mink_50__vs__loss_ft": 1.0,
+    "mink_50__vs__loss_base": 0.046666666666666634,
+    "mink_50__vs__refmodel_delta": 0.996,
+    "mink_50__vs__embsim_self": 1.0,
+    "loss_ft__vs__loss_base": 0.046666666666666634,
+    "loss_ft__vs__refmodel_delta": 0.996,
+    "loss_ft__vs__embsim_self": 1.0,
+    "loss_base__vs__refmodel_delta": 0.04708370138387008,
+    "loss_base__vs__embsim_self": 0.046666666666666634,
+    "refmodel_delta__vs__embsim_self": 0.996
+  },
+  "ensemble_full_dev": {
+    "f1": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "auc": 1.0,
+    "n": 3000
+  },
+  "ensemble_full_val": {
+    "f1": 0.9979959919839679,
+    "precision": 1.0,
+    "recall": 0.996,
+    "auc": 0.9994460000000001,
+    "n": 2000
+  },
+  "ensemble_audit_dev": {
+    "f1": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "auc": 1.0,
+    "n": 3000
+  },
+  "ensemble_audit_val": {
+    "f1": 0.9974937343358395,
+    "precision": 1.0,
+    "recall": 0.995,
+    "auc": 0.997075,
+    "n": 2000
+  },
+  "audit_features": [
+    "ngram13_pile",
+    "ngram13_fineweb",
+    "mink_5",
+    "mink_10",
+    "mink_20",
+    "mink_30",
+    "mink_50",
+    "loss_ft",
+    "loss_base",
+    "refmodel_delta"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ref_name": "olmo27b",
+  "ref_path": "/mnt/localssd/models/olmo-2-7b",
+  "benchmarks": {
+    "mmlu_test": {
+      "n": 500,
+      "mean": 2.119175672531128,
+      "std": 0.4854256510734558,
+      "n_nan": 0
+    },
+    "arc_challenge": {
+      "n": 500,
+      "mean": 2.0202345848083496,
+      "std": 0.4190399944782257,
+      "n_nan": 0
+    },
+    "gsm8k_test": {
+      "n": 500,
+      "mean": 1.2266615629196167,
+      "std": 0.2593080699443817,
+      "n_nan": 0
+    }
+  }
+}

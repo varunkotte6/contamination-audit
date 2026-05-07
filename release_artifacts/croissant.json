@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "@id": "https://example.com/datasets/paper5-contamination-db",
+  "name": "paper5-contamination-db",
+  "description": "Per-example LLM contamination scores for 14-18 open-weight models across 13 benchmarks under two calibration regimes (v1: cross-benchmark negatives [deployment-invalid, replication-only]; v2: same-benchmark negatives [deployment-valid]).",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://example.com/datasets/paper5-contamination-db",
+  "version": "1.0-neurips2026",
+  "datePublished": "2026-04-23T09:55:28.467500+00:00",
+  "creator": {
+    "@type": "Organization",
+    "name": "anonymous-for-review"
+  },
+  "citation": "Anonymous, 'The Calibration Mismatch in LLM Contamination Detection', NeurIPS 2026 D&B submission.",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "ensemble_v2",
+      "contentUrl": "ensemble_v2.pkl",
+      "sha256": "TBD",
+      "encodingFormat": "application/python-pickle",
+      "description": "v2 (same-benchmark negatives) calibrated ensemble \u2014 safe for deployment."
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "ensemble_v1",
+      "contentUrl": "ensemble_v1.pkl",
+      "sha256": "TBD",
+      "encodingFormat": "application/python-pickle",
+      "description": "v1 (cross-benchmark negatives) calibrated ensemble \u2014 REPLICATION ONLY, DO NOT DEPLOY. Exhibits domain-confound inversion at deployment."
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "v2_per_model_scores",
+      "description": "Per-example p_contam scores under v2 calibration for each audited model.",
+      "encodingFormat": "application/octet-stream",
+      "includes": "phase4_v2/*__p_contam.npz"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "v1_per_model_scores",
+      "description": "Per-example p_contam scores under v1 calibration (replication-only).",
+      "encodingFormat": "application/octet-stream",
+      "includes": "phase4_v1/*__p_contam.npz"
+    }
+  ],
+  "rai:dataBiases": "v1 scores exhibit a systematic domain-benchmark confound; see paper \u00a74-5. v2 scores are the recommended deployment target. Scores are uncalibrated against closed-API LLMs (GPT-4/Claude/Gemini); methodology is demonstrated on open-weight models only.",
+  "rai:dataUseCases": "Intended for: (a) replication of the v1/v2 calibration-mismatch finding; (b) benchmark-audit workflows that feed per-example scores into within-difficulty-stratified accuracy-gap tests (\u00a75.2 of the paper). Not intended for: hard thresholding of individual items without the accompanying accuracy-gap validation.",
+  "rai:personalSensitiveInformation": "No PII. All benchmark items are from public evaluation datasets with open licenses."
+}

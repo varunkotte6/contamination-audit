@@ -1,0 +1,85 @@
+{
+  "n_cells": 16,
+  "v2_native_threshold": {
+    "n": 16,
+    "mean_gap": -0.01774063704216896,
+    "median_gap": -0.009215360910276194,
+    "n_sig_correct_raw": 2,
+    "n_sig_wrong_raw": 6
+  },
+  "mink_5_matched_rate": {
+    "n": 16,
+    "mean_gap": -0.028001384976143587,
+    "median_gap": 0.001736111111111111,
+    "n_sig_correct_raw": 2,
+    "n_sig_wrong_raw": 6
+  },
+  "mink_10_matched_rate": {
+    "n": 16,
+    "mean_gap": -0.018600537082164918,
+    "median_gap": 0.004753352490421455,
+    "n_sig_correct_raw": 2,
+    "n_sig_wrong_raw": 6
+  },
+  "mink_20_matched_rate": {
+    "n": 16,
+    "mean_gap": 0.02694779080645885,
+    "median_gap": 0.005273846960167715,
+    "n_sig_correct_raw": 0,
+    "n_sig_wrong_raw": 9
+  },
+  "mink_30_matched_rate": {
+    "n": 16,
+    "mean_gap": 0.024451881636277845,
+    "median_gap": 0.004094601677148847,
+    "n_sig_correct_raw": 0,
+    "n_sig_wrong_raw": 10
+  },
+  "mink_50_matched_rate": {
+    "n": 16,
+    "mean_gap": 0.06454236548553033,
+    "median_gap": 0.010312441377131415,
+    "n_sig_correct_raw": 0,
+    "n_sig_wrong_raw": 11
+  },
+  "v2_vs_mink_5_matched": {
+    "n_cells": 16,
+    "v2_wins": 6,
+    "ties": 7,
+    "mink_wins": 3,
+    "mean_diff_v2_minus_mink": 0.010260747933974622,
+    "wilcoxon_p_v2_lt_mink": 0.2107894476088225
+  },
+  "v2_vs_mink_10_matched": {
+    "n_cells": 16,
+    "v2_wins": 6,
+    "ties": 5,
+    "mink_wins": 5,
+    "mean_diff_v2_minus_mink": 0.0008599000399959547,
+    "wilcoxon_p_v2_lt_mink": 0.30008974357027696
+  },
+  "v2_vs_mink_20_matched": {
+    "n_cells": 16,
+    "v2_wins": 8,
+    "ties": 5,
+    "mink_wins": 3,
+    "mean_diff_v2_minus_mink": -0.04468842784862781,
+    "wilcoxon_p_v2_lt_mink": 0.05833223239051172
+  },
+  "v2_vs_mink_30_matched": {
+    "n_cells": 16,
+    "v2_wins": 7,
+    "ties": 6,
+    "mink_wins": 3,
+    "mean_diff_v2_minus_mink": -0.0421925186784468,
+    "wilcoxon_p_v2_lt_mink": 0.07597809287170526
+  },
+  "v2_vs_mink_50_matched": {
+    "n_cells": 16,
+    "v2_wins": 8,
+    "ties": 5,
+    "mink_wins": 3,
+    "mean_diff_v2_minus_mink": -0.0822830025276993,
+    "wilcoxon_p_v2_lt_mink": 0.02731196912728582
+  }
+}

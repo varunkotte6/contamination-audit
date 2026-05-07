@@ -1,0 +1,27 @@
+{
+  "gsm8k_test": {
+    "n_items": 1000,
+    "accuracy": 0.184,
+    "duration_sec": 6.95661187171936
+  },
+  "mmlu_test": {
+    "n_items": 969,
+    "accuracy": 0.6439628482972136,
+    "duration_sec": 2.1792893409729004
+  },
+  "hellaswag_val": {
+    "n_items": 1000,
+    "accuracy": 0.413,
+    "duration_sec": 4.441472291946411
+  },
+  "arc_challenge": {
+    "n_items": 1000,
+    "accuracy": 0.788,
+    "duration_sec": 1.5672519207000732
+  },
+  "humaneval": {
+    "n_items": 164,
+    "accuracy": 0.09146341463414634,
+    "duration_sec": 4.145368337631226
+  }
+}

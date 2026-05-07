@@ -1,0 +1,5 @@
+{
+  "_status": "failed",
+  "_reason": "Qwen-72B-AWQ load failure: gptqmodel incompat with torch 2.10 (meta tensor error). Attempted install of gptqmodel/autoawq; loader still fails. Deferred.",
+  "_timestamp": "2026-04-23T03:50:00Z"
+}

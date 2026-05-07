@@ -1,0 +1,34 @@
+{
+  "haiku-4.5__mmlu_test": {
+    "n": 200,
+    "canon_acc": 0.74,
+    "shuf_acc": 0.725,
+    "mean_gap": 0.015,
+    "t_stat": 0.6537157709846635,
+    "p_value": 0.5140496034970155
+  },
+  "haiku-4.5__arc_challenge": {
+    "n": 200,
+    "canon_acc": 0.965,
+    "shuf_acc": 0.965,
+    "mean_gap": 0.0,
+    "t_stat": 0.0,
+    "p_value": 1.0
+  },
+  "sonnet-4.5__mmlu_test": {
+    "n": 200,
+    "canon_acc": 0.725,
+    "shuf_acc": 0.75,
+    "mean_gap": -0.025,
+    "t_stat": -1.2141145226353542,
+    "p_value": 0.22614286157745997
+  },
+  "sonnet-4.5__arc_challenge": {
+    "n": 200,
+    "canon_acc": 0.975,
+    "shuf_acc": 0.975,
+    "mean_gap": 0.0,
+    "t_stat": 0.0,
+    "p_value": 1.0
+  }
+}

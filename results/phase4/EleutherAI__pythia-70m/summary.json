@@ -1,0 +1,106 @@
+{
+  "agieval": {
+    "n_items": 999,
+    "p_contam_mean": 0.00027957913698628545,
+    "p_contam_p90": 0.0005858755321241915,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 5.307161808013916,
+    "mean_refmodel_delta": -2.629016637802124
+  },
+  "aime2024": {
+    "n_items": 90,
+    "p_contam_mean": 0.000680871366057545,
+    "p_contam_p90": 0.0010888781398534775,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 4.68377685546875,
+    "mean_refmodel_delta": -2.555544376373291
+  },
+  "arc_challenge": {
+    "n_items": 1000,
+    "p_contam_mean": 0.00031847917125560343,
+    "p_contam_p90": 0.000758440641220659,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 5.139054298400879,
+    "mean_refmodel_delta": -2.8372201919555664
+  },
+  "bbh": {
+    "n_items": 999,
+    "p_contam_mean": 0.0005108207114972174,
+    "p_contam_p90": 0.0013968062121421099,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 5.194019794464111,
+    "mean_refmodel_delta": -2.521479368209839
+  },
+  "gsm8k_test": {
+    "n_items": 1000,
+    "p_contam_mean": 0.00023011592566035688,
+    "p_contam_p90": 0.000495907268486917,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 5.31460428237915,
+    "mean_refmodel_delta": -2.8878095149993896
+  },
+  "hellaswag_val": {
+    "n_items": 1000,
+    "p_contam_mean": 0.00012838546535931528,
+    "p_contam_p90": 0.00028814602410420775,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 5.999205112457275,
+    "mean_refmodel_delta": -2.497345209121704
+  },
+  "humaneval": {
+    "n_items": 164,
+    "p_contam_mean": 0.0022340496070683002,
+    "p_contam_p90": 0.0052058217115700245,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 3.7903878688812256,
+    "mean_refmodel_delta": -2.3580801486968994
+  },
+  "livecodebench": {
+    "n_items": 400,
+    "p_contam_mean": 0.0011101397685706615,
+    "p_contam_p90": 0.002254548715427518,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 4.0923614501953125,
+    "mean_refmodel_delta": -2.5385122299194336
+  },
+  "math": {
+    "n_items": 1000,
+    "p_contam_mean": 0.0020610603969544172,
+    "p_contam_p90": 0.0046289050951600075,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 4.216376781463623,
+    "mean_refmodel_delta": -2.494154691696167
+  },
+  "math500": {
+    "n_items": 500,
+    "p_contam_mean": 0.002494220621883869,
+    "p_contam_p90": 0.00491358432918787,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 4.12709379196167,
+    "mean_refmodel_delta": -2.447507619857788
+  },
+  "mbpp": {
+    "n_items": 500,
+    "p_contam_mean": 0.002010190859436989,
+    "p_contam_p90": 0.004644141532480717,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 4.182901382446289,
+    "mean_refmodel_delta": -2.3687069416046143
+  },
+  "mmlu_test": {
+    "n_items": 969,
+    "p_contam_mean": 0.0001715544640319422,
+    "p_contam_p90": 0.00039917929098010063,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 5.404698848724365,
+    "mean_refmodel_delta": -2.8348631858825684
+  },
+  "truthfulqa_mc": {
+    "n_items": 817,
+    "p_contam_mean": 0.002437020419165492,
+    "p_contam_p90": 0.004982492420822382,
+    "high_risk_rate": 0.0,
+    "mean_loss_audit": 3.8840417861938477,
+    "mean_refmodel_delta": -2.1261141300201416
+  }
+}

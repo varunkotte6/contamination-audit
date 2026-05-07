@@ -1,0 +1,178 @@
+{
+  "qwen_v2_full": {
+    "calibration": {
+      "f1_val": 0.9974962443660497,
+      "auc_val": 0.99881,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "m": 34,
+      "n_raw": 6,
+      "n_bonf": 5,
+      "families": [
+        "Llama",
+        "OLMo",
+        "Phi-3.5",
+        "Qwen-14B",
+        "Qwen-32B"
+      ],
+      "bonf_cells": [
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.32863849765258213,
+          "p": 1.1325356420854234e-24
+        },
+        {
+          "m": "microsoft__Phi-3.5-mini-instruct",
+          "b": "arc_challenge",
+          "gap": -0.17633691996921216,
+          "p": 3.0527949032932594e-10
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.0522986323815496,
+          "p": 9.061289814476288e-09
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "gsm8k_test",
+          "gap": -0.2266576216750532,
+          "p": 4.4218594730562804e-08
+        },
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.05649930630894411,
+          "p": 0.00021926592632258812
+        }
+      ]
+    }
+  },
+  "qwen_v2_no_refdelta": {
+    "calibration": {
+      "f1_val": 0.996996996996497,
+      "auc_val": 0.9990160000000001,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "m": 34,
+      "n_raw": 7,
+      "n_bonf": 6,
+      "families": [
+        "Llama",
+        "OLMo",
+        "Phi-3.5",
+        "Qwen-14B",
+        "Qwen-32B",
+        "Qwen-other"
+      ],
+      "bonf_cells": [
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.3203883495145631,
+          "p": 4.1515694365934056e-23
+        },
+        {
+          "m": "microsoft__Phi-3.5-mini-instruct",
+          "b": "arc_challenge",
+          "gap": -0.1717867833971345,
+          "p": 6.9539760311323514e-09
+        },
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.054023313223295205,
+          "p": 7.638077656822006e-09
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.05152377603340014,
+          "p": 4.718926028397846e-08
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "gsm8k_test",
+          "gap": -0.21748529083669266,
+          "p": 1.3859161945382423e-07
+        },
+        {
+          "m": "Qwen__Qwen2.5-7B",
+          "b": "arc_challenge",
+          "gap": -0.09969784993421511,
+          "p": 2.1853907184244337e-06
+        }
+      ]
+    }
+  },
+  "qwen_v2_pure_mem": {
+    "calibration": {
+      "f1_val": 0.994994994994495,
+      "auc_val": 0.998984,
+      "n_dev": 2969,
+      "n_val": 2000
+    },
+    "stratified": {
+      "m": 43,
+      "n_raw": 10,
+      "n_bonf": 7,
+      "families": [
+        "Llama",
+        "OLMo",
+        "Phi-3.5",
+        "Qwen-14B",
+        "Qwen-32B",
+        "Qwen-other"
+      ],
+      "bonf_cells": [
+        {
+          "m": "meta-llama__Llama-3.1-8B",
+          "b": "mmlu_test",
+          "gap": -0.32367149758454106,
+          "p": 1.556282602702947e-23
+        },
+        {
+          "m": "microsoft__Phi-3.5-mini-instruct",
+          "b": "arc_challenge",
+          "gap": -0.15265379471620347,
+          "p": 8.450466630948008e-17
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "arc_challenge",
+          "gap": -0.17085427135678388,
+          "p": 8.431654568989645e-11
+        },
+        {
+          "m": "Qwen__Qwen2.5-32B",
+          "b": "arc_challenge",
+          "gap": -0.05000715505577099,
+          "p": 1.4693349823480462e-10
+        },
+        {
+          "m": "Qwen__Qwen2.5-14B",
+          "b": "arc_challenge",
+          "gap": -0.058925055544192556,
+          "p": 6.002213833555613e-07
+        },
+        {
+          "m": "Qwen__Qwen2.5-Coder-7B",
+          "b": "arc_challenge",
+          "gap": -0.09808756496711364,
+          "p": 7.299356243949622e-07
+        },
+        {
+          "m": "allenai__OLMo-2-1124-7B",
+          "b": "gsm8k_test",
+          "gap": -0.20912014415943816,
+          "p": 2.998162268205795e-05
+        }
+      ]
+    }
+  }
+}
